@@ -18,7 +18,7 @@ while True:
         os.system(gg)
     elif query2 == 3:
         host = input("Host:")
-        gg = "shodan scan " + host
+        gg = "shodan scan submit " + host
         os.system(gg)
     elif query2 == 0:
         exit(0)
